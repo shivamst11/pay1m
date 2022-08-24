@@ -24,7 +24,7 @@ const Header = () => {
             style={styles.hamburgerIcon}
           />
         </CustomButton>
-        <CustomText style={styles.headerName}>Hello Sandra</CustomText>
+        <CustomText style={styles.headerName}>Hello Sandra,</CustomText>
       </View>
       <CustomButton style={styles.addMoneyBtn}>
         <CustomText style={styles.addMoneyTitle}>Add money</CustomText>

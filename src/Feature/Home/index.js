@@ -7,10 +7,12 @@
 import React from 'react';
 import {View, StyleSheet, SafeAreaView} from 'react-native';
 import AppButton from '../../Component/AppButton';
+import CustomImage from '../../Component/CustomImage';
 import CustomText from '../../Component/CustomText';
 import colorCode from '../../Utility/colorCode';
 import {SCREENS} from '../../Utility/Constant';
 import {normalize, vh, vw} from '../../Utility/dimension';
+import ImagePath from '../../Utility/ImagePath';
 import Header from './Header';
 import History from './History';
 
@@ -28,7 +30,10 @@ const Home = ({navigation}) => {
       <CustomText style={styles.balanceTitle}>
         Your current balance is
       </CustomText>
-      <CustomText style={styles.balance}>200000</CustomText>
+      <View style={styles.balanceCont}>
+        <CustomImage source={ImagePath.N_SYM} style={styles.nSym} />
+        <CustomText style={styles.balance}> 200,000</CustomText>
+      </View>
       <View style={styles.buttonCont}>
         <AppButton
           onPress={onPressRequestMoney}
@@ -63,12 +68,20 @@ const styles = StyleSheet.create({
     color: colorCode.white,
     marginTop: vh(48),
   },
+  balanceCont: {
+    marginHorizontal: vw(16),
+    marginTop: vh(16),
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  nSym: {
+    height: normalize(35),
+    width: normalize(35),
+  },
   balance: {
     fontSize: normalize(40),
     fontWeight: '700',
-    marginHorizontal: vw(16),
     color: colorCode.white,
-    marginTop: vh(16),
   },
   buttonCont: {
     flexDirection: 'row',

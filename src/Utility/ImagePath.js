@@ -10,4 +10,5 @@ module.exports = {
   PROFILE4: require('../Assets/Image/Profile/profile4.png'),
   BACK_ARROW: require('../Assets/Image/Arrow/backArrow.png'),
   REQUEST_BG: require('../Assets/Image/RequestMoney/requestBg.png'),
+  N_SYM: require('../Assets/Image/Home/nSym.png'),
 };

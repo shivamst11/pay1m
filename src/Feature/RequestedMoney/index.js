@@ -34,7 +34,10 @@ const RequestedMoney = ({navigation}) => {
         </View>
         <CustomText style={styles.name}>Adeleke Ramon</CustomText>
         <CustomText style={styles.requestFor}>is requesting for:</CustomText>
-        <CustomText style={styles.balance}>200000</CustomText>
+        <View style={styles.balanceCont}>
+          <CustomImage source={ImagePath.N_SYM} style={styles.nSym} />
+          <CustomText style={styles.balance}>200,000</CustomText>
+        </View>
       </View>
       <View style={styles.bottomCont}>
         <View style={styles.btnCont}>
@@ -93,13 +96,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  balance: {
-    fontSize: normalize(40),
-    fontWeight: '700',
-    color: colorCode.white,
-    marginTop: vh(24),
-    alignSelf: 'center',
-  },
+
   name: {
     fontSize: normalize(24),
     fontWeight: '600',
@@ -121,5 +118,22 @@ const styles = StyleSheet.create({
     marginTop: vh(24),
   },
   bottomCont: {marginBottom: vh(53)},
+  balance: {
+    fontSize: normalize(40),
+    fontWeight: '700',
+    color: colorCode.white,
+  },
+  balanceCont: {
+    marginHorizontal: vw(16),
+    marginTop: vh(16),
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'center',
+  },
+  nSym: {
+    height: normalize(35),
+    width: normalize(35),
+    marginHorizontal: vw(10),
+  },
 });
 export default RequestedMoney;

@@ -64,6 +64,7 @@ const Transaction = () => {
       {transactionHistory.map((item, index) =>
         transactionCard(item, index + 1),
       )}
+      <View style={GlobalStyles.footerList} />
     </ScrollView>
   );
 };

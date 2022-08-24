@@ -29,6 +29,9 @@ const GlobalStyles = {
     fontSize: 18,
     fontWeight: '600',
   },
+  footerList: {
+    height: 50,
+  },
 };
 
 export default GlobalStyles;
