@@ -14,7 +14,7 @@ import {transactionHistory} from '../../dummyData/dummyData';
 import colorCode from '../../Utility/colorCode';
 import {vh, vw, screenWidth, normalize} from '../../Utility/dimension';
 import InputHeader from './InputHeader';
-import Profile from './Proifle';
+import Profile from './Profile';
 import RBSheet from 'react-native-raw-bottom-sheet';
 import AppButton from '../../Component/AppButton';
 import withSearch from '../../Hoc/withSearch';
