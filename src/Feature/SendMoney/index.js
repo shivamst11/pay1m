@@ -69,7 +69,7 @@ const SendMoney = props => {
           ref={ref => {
             sheetRef.current = ref;
           }}
-          height={vh(340)}
+          height={vh(290)}
           openDuration={250}
           customStyles={{
             container: styles.bottomSheetCont,
@@ -123,27 +123,27 @@ const styles = StyleSheet.create({
     width: vw(72),
     borderRadius: vw(36),
     alignSelf: 'center',
-    marginTop: vh(32),
+    marginTop: vh(15),
   },
   selectedProfileName: {
     fontSize: normalize(20),
     fontWeight: '600',
     color: colorCode.white,
     alignSelf: 'center',
-    marginTop: vh(16),
+    marginTop: vh(10),
   },
   selectedProfileNumber: {
     fontSize: normalize(14),
     fontWeight: '400',
     color: colorCode.white,
     alignSelf: 'center',
-    marginTop: vh(16),
+    marginTop: vh(7),
   },
   btnCont: {
     height: vh(60),
     width: vw(147),
     alignSelf: 'center',
-    marginTop: vh(32),
+    marginTop: vh(25),
   },
 });
 export default withSearch(SendMoney, transactionHistory);
