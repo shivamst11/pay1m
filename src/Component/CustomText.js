@@ -9,7 +9,7 @@ import {Text} from 'react-native';
 
 function CustomText({...props}) {
   return (
-    <Text {...props} style={[props.style, {fontFamily: `Inter-Regular`}]}>
+    <Text {...props} style={[props.style, {fontFamily: 'Inter-Regular'}]}>
       {props.children}
     </Text>
   );
