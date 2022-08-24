@@ -1,0 +1,70 @@
+const ImagePath = require('../Utility/ImagePath');
+
+module.exports = {
+  transactionHistory: [
+    {
+      id: 1,
+      name: 'Adeboye Usman',
+      profileImg: ImagePath.PROFILE1,
+      status: 'received',
+      amount: '200000',
+      number: '(+091) 987 1031 706',
+    },
+    {
+      id: 2,
+      name: 'Mercy Popoola',
+      profileImg: ImagePath.PROFILE2,
+      status: 'failed',
+      amount: '110000',
+      number: '(+091) 987 1031 707',
+    },
+    {
+      id: 3,
+      name: 'Onome Adetayo',
+      profileImg: ImagePath.PROFILE3,
+      status: 'sent',
+      amount: '10000',
+      number: '(+091) 987 1031 708',
+    },
+    {
+      id: 4,
+      name: 'Kingsley Abiodun',
+      profileImg: ImagePath.PROFILE4,
+      status: 'received',
+      amount: '200000',
+      number: '(+091) 987 1031 709',
+    },
+    {
+      id: 5,
+      name: 'Shivam Tripathi',
+      profileImg: ImagePath.PROFILE1,
+      status: 'received',
+      amount: '200000',
+      number: '(+091) 987 1031 706',
+    },
+    {
+      id: 6,
+      name: 'Rahul Kumar',
+      profileImg: ImagePath.PROFILE2,
+      status: 'failed',
+      amount: '110000',
+      number: '(+091) 987 1031 707',
+    },
+    {
+      id: 7,
+      name: 'Swapnil Gupta',
+      profileImg: ImagePath.PROFILE3,
+      status: 'sent',
+      amount: '10000',
+      number: '(+091) 987 1031 708',
+    },
+    {
+      id: 8,
+      name: 'Vikas Kumar',
+      profileImg: ImagePath.PROFILE4,
+      status: 'received',
+      amount: '200000',
+      number: '(+091) 987 1031 709',
+    },
+  ],
+};
