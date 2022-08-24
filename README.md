@@ -18,6 +18,6 @@ PaymentAppRN
 <p align="center">
   <img src="ScreenShots/Home.png" width="375" height="812">
   <img src="ScreenShots/RequestMoney.png "width="375" height="812">
-  <img src="ScreenShots/SendMoney.png" width="375" height="812">
+   <img src="ScreenShots/SendMoney.png" width="375" height="812">
    <img src="ScreenShots/SendMoney2.png" width="375" height="812">
 </p>
